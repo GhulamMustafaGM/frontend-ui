@@ -43,23 +43,17 @@ export default function NavigationBar() {
 
     return (
         <Container>
-
             <Toolbar className={classes.toolbar}>
-
                 <Typography
                     component='h1'
                     variant='h4'
                     className={classes.siteTitle}
                 >
-
-                    Mammoth Interactive
-
+                    Wibe 
                 </Typography>
 
                 <Box className={classes.menuBox}>
-
                     {['home', 'courses', 'sign up'].map((menuOption) => (
-
                         <Link
                             component='button'
                             variant='body1'
@@ -67,13 +61,9 @@ export default function NavigationBar() {
                         >
                             {menuOption.toUpperCase()}
                         </Link>
-
                     ))}
-
                 </Box>
-
             </Toolbar>
-
         </Container>
     );
 }
