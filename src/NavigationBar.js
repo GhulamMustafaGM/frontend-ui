@@ -142,7 +142,7 @@ export default function NavigationBar() {
                     className={classes.siteTitle}
                 >
 
-                    Wibe App
+                    Frontend UI
 
                 </Typography>
 

@@ -5,6 +5,7 @@ import NavigationBar from './NavigationBar';
 
 import Container from '@material-ui/core/Container';
 import GridLayout from './GridLayout';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <GridLayout />
         </main>
       </Container>
+
+      <Footer />
 
     </div>
   );
